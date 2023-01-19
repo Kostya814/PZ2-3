@@ -58,7 +58,7 @@ namespace PZ2_3
 
         public void Display() 
         {
-            Console.WriteLine($"Калорийность продукта на 100 г {_first} \n Масса продукта {_second}" );
+            Console.WriteLine($"Калорийность продукта на 100 г {_first} килокаллорий \n Масса продукта {_second}" );
         }
 
     }

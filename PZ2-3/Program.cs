@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PZ2_3
 {
-    internal class Program
+    class Program
     {
         static void Main(string[] args)
         {
