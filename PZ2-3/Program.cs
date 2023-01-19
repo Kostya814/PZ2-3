@@ -10,7 +10,11 @@ namespace PZ2_3
     {
         static void Main(string[] args)
         {
-
+            Product prod = new Product();
+            prod.Read();
+            prod.Display();
+            prod.power();
+            Console.ReadKey();
         }
     }
 }

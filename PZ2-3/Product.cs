@@ -14,7 +14,11 @@ namespace PZ2_3
         {
             _first = first;
             _second = second;
-        }    
+        }
+        public Product()
+        { 
+        
+        }
        
         public int First 
         { 
@@ -44,6 +48,7 @@ namespace PZ2_3
         public void power()
         {
             double sum = (_second*10) * _first; 
+            Console.WriteLine(sum);
         }
         public void Read() 
         {
