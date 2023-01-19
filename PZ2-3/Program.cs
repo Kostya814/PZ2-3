@@ -10,11 +10,16 @@ namespace PZ2_3
     {
         static void Main(string[] args)
         {
-            Product prod = new Product();
-            prod.Read();
-            prod.Display();
-            prod.power();
+            Angle ang = new Angle(180,1);
+            Angle ang1 = new Angle(350, 1);
+            
+            ang.Casting();
+
+            ang.Compare(ang1);
+
             Console.ReadKey();
+            
+
         }
     }
 }
